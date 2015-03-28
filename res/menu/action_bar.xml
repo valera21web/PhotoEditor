@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <item
+        android:icon="@drawable/ic_action_overflow"
+        android:showAsAction="always"
+        android:title="">
+      <menu>
+         <item
+                 android:id="@+id/action_bar_button_edit1"
+                 android:icon="@android:drawable/ic_menu_preferences"
+                 android:showAsAction="ifRoom"
+                 android:title="@string/item4">
+         </item>
+         <item
+                 android:id="@+id/action_bar_button_edit2"
+                 android:icon="@android:drawable/ic_menu_preferences"
+                 android:showAsAction="collapseActionView"
+                 android:title="@string/item4">
+         </item>
+         <item
+                 android:id="@+id/action_bar_button_edit3"
+                 android:icon="@android:drawable/ic_menu_preferences"
+                 android:showAsAction="collapseActionView"
+                 android:title="@string/item4">
+         </item>
+      </menu>
+   </item>
+</menu>
