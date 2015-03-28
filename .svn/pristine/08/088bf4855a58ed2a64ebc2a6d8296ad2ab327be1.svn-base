@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <dimen name="padding_right_button_effect">5dp</dimen>
+   <dimen name="height_button_effect">80dp</dimen>
+   <dimen name="width_button_effect">128dp</dimen>
+
+   <dimen name="top_height_layout_effect_button">50dp</dimen>
+   <dimen name="top_width_layout_effect_button">60dp</dimen>
+
+   <dimen name="top_height_button_effect">42dp</dimen>
+   <dimen name="top_width_button_effect">42dp</dimen>
+   <dimen name="margin_top_button_effect">4dp</dimen>
+   <dimen name="margin_top_button_action">10dp</dimen>
+</resources>

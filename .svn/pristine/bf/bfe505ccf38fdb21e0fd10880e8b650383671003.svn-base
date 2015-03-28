@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/background_top_button"
+              android:gravity="right">
+   <LinearLayout
+           android:orientation="horizontal"
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent" android:gravity="center_vertical" android:layout_weight="1">
+      <LinearLayout android:id="@+id/layout_top_effect_border"
+                    android:layout_width="@dimen/top_width_layout_effect_button"
+                    android:layout_height="@dimen/top_height_layout_effect_button"
+                    android:background="@color/background_top_button"
+                    android:gravity="center">
+         <ImageView
+                 android:layout_width="@dimen/top_width_button_effect"
+                 android:layout_height="@dimen/top_height_button_effect"
+                 android:src="@drawable/ic_action_border"
+                 android:id="@+id/button_top_effect_border"/>
+      </LinearLayout>
+
+      <LinearLayout android:id="@+id/layout_top_effect_gaussian"
+                    android:layout_width="@dimen/top_width_layout_effect_button"
+                    android:layout_height="@dimen/top_height_layout_effect_button"
+                    android:background="@color/background_top_button"
+                    android:gravity="center">
+         <ImageView
+                 android:layout_width="@dimen/top_width_button_effect"
+                 android:layout_height="@dimen/top_height_button_effect"
+                 android:src="@drawable/ic_action_gaussian"
+                 android:id="@+id/button_top_effect_gaussian"/>
+      </LinearLayout>
+
+      <LinearLayout android:id="@+id/layout_top_effect_light"
+                    android:layout_width="@dimen/top_width_layout_effect_button"
+                    android:layout_height="@dimen/top_height_layout_effect_button"
+                    android:background="@color/background_top_button"
+                    android:gravity="center">
+         <ImageView
+                 android:layout_width="@dimen/top_width_button_effect"
+                 android:layout_height="@dimen/top_height_button_effect"
+                 android:src="@drawable/ic_action_bightness_low"
+                 android:id="@+id/button_top_effect_light"/>
+      </LinearLayout>
+
+
+      <LinearLayout android:id="@+id/layout_top_effect_rotate"
+                    android:layout_width="@dimen/top_width_layout_effect_button"
+                    android:layout_height="@dimen/top_height_layout_effect_button"
+                    android:background="@color/background_top_button"
+                    android:gravity="center">
+         <ImageView
+                 android:layout_width="@dimen/top_width_button_effect"
+                 android:layout_height="@dimen/top_height_button_effect"
+                 android:src="@drawable/ic_action_screen_rotation"
+                 android:id="@+id/button_top_effect_rotate"/>
+      </LinearLayout>
+   </LinearLayout>
+
+   <LinearLayout android:layout_width="2dp"
+                 android:layout_height="fill_parent"
+                 android:background="@color/background_top_button_active"
+                 android:gravity="center">
+   </LinearLayout>
+
+   <LinearLayout
+           android:orientation="horizontal"
+           android:layout_width="100dp"
+           android:layout_height="fill_parent" android:gravity="center_vertical|right">
+      <ImageView
+              android:layout_width="@dimen/top_width_button_effect"
+              android:layout_height="@dimen/top_height_button_effect"
+              android:src="@drawable/ic_action_photo"
+              android:layout_marginRight="@dimen/margin_top_button_action"
+              android:id="@+id/button_top_action_add_photo"/>
+      <ImageView
+              android:layout_width="@dimen/top_width_button_effect"
+              android:layout_height="@dimen/top_height_button_effect"
+              android:src="@drawable/ic_action_done"
+              android:id="@+id/button_top_action_done"/>
+   </LinearLayout>
+
+
+</LinearLayout>

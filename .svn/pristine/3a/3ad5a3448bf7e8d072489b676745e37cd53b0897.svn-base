@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="50dp"
+        android:background="@color/action_bar_background"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        >
+
+
+   <LinearLayout
+           android:id="@+id/action_bar_layout_left"
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:gravity="center"
+           android:paddingRight="5dp">
+      <LinearLayout
+              android:id="@+id/action_bar_layout_back"
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+              android:gravity="center"
+              android:paddingRight="5dp">
+         <ImageButton
+                 android:id="@+id/action_bar_button_back"
+                 android:layout_width="20dp"
+                 android:layout_height="25dp"
+                 android:src="@drawable/ic_action_previous_item"
+                 android:background="@color/action_bar_background"/>
+         <ImageButton
+                 android:id="@+id/action_bar_logo"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:background="@color/action_bar_background"
+                 android:src="@drawable/ic_launcher_logo"/>
+      </LinearLayout>
+      <TextView
+              android:id="@+id/action_bar_title"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/app_name"
+              android:textSize="@dimen/action_bar_title_text_size"
+              android:textColor="@color/action_bar_title_text_color"/>
+   </LinearLayout>
+   <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:gravity="center|right"
+           android:paddingLeft="5dp"
+           android:id="@+id/action_bar_layout_right">
+      <ImageButton
+              android:id="@+id/action_bar_edit"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/ic_action_edit"
+              android:background="@color/action_bar_background"/>
+      <ImageButton
+              android:id="@+id/action_bar_setting"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@color/action_bar_background"
+              android:src="@drawable/ic_action_overflow"/>
+   </LinearLayout>
+</LinearLayout>

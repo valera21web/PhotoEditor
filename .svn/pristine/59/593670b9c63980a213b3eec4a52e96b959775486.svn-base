@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="background_image_view">#0099CC</color>
+
+   <color name="background_effects_buttons">#33B5E5</color>
+
+   <color name="background_top_button">#33B5E5</color>
+   <color name="background_top_button_active">#0099CC</color>
+</resources>

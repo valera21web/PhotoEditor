@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- HOME -->
+   <color name="home_background_full">#CCCCCC</color>
+
+   <color name="home_button_filters_background">#AA66CC</color>
+   <color name="home_button_instagram_background">#FFBB33</color>
+   <color name="home_button_paint_background">#33B5E5</color>
+   <color name="home_button_camera_background">#99CC00</color>
+   <color name="home_button_gallery_background">#FF4444</color>
+   <!-- /HOME -->
+</resources>

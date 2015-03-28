@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- HOME -->
+   <dimen name="home_top_slide_height">200dp</dimen>
+   <!-- /HOME -->
+</resources>

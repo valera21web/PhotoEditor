@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/horizontalScrollView">
+
+   <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="fill_parent"
+           android:gravity="center|center_vertical"
+           android:background="@color/background_effects_buttons">
+
+      <ImageView
+           android:layout_width="@dimen/width_button_effect"
+           android:src="@drawable/effect_real"
+           android:layout_height="@dimen/height_button_effect"
+           android:layout_marginRight="@dimen/padding_right_button_effect"
+           android:id="@+id/button_effect_real"/>
+
+      <ImageView
+              android:layout_width="@dimen/width_button_effect"
+              android:src="@drawable/effect_sheding_yellow"
+              android:layout_height="@dimen/height_button_effect"
+              android:layout_marginRight="@dimen/padding_right_button_effect"
+              android:id="@+id/button_effect_sheding_yellow"/>
+
+      <ImageView
+              android:layout_width="@dimen/width_button_effect"
+              android:src="@drawable/effect_tint"
+              android:layout_height="@dimen/height_button_effect"
+              android:layout_marginRight="@dimen/padding_right_button_effect"
+              android:id="@+id/button_effect_tint"/>
+
+      <ImageView
+              android:layout_width="@dimen/width_button_effect"
+              android:src="@drawable/effect_grayscale"
+              android:layout_height="@dimen/height_button_effect"
+              android:layout_marginRight="@dimen/padding_right_button_effect"
+              android:id="@+id/button_effect_grayscale"/>
+
+
+      <ImageView
+              android:layout_width="@dimen/width_button_effect"
+              android:src="@drawable/effect_sheding_cyan"
+              android:layout_height="@dimen/height_button_effect"
+              android:layout_marginRight="@dimen/padding_right_button_effect"
+              android:id="@+id/button_effect_sheding_cyan"/>
+
+      <ImageView
+              android:layout_width="@dimen/width_button_effect"
+              android:src="@drawable/effect_sepia_green"
+              android:layout_height="@dimen/height_button_effect"
+              android:layout_marginRight="@dimen/padding_right_button_effect"
+              android:id="@+id/button_effect_sepia_green"/>
+
+      <ImageView
+              android:layout_width="@dimen/width_button_effect"
+              android:src="@drawable/effect_sepia_blue"
+              android:layout_height="@dimen/height_button_effect"
+              android:layout_marginRight="@dimen/padding_right_button_effect"
+              android:id="@+id/button_effect_sepia_blue"/>
+
+      <ImageView
+              android:layout_width="@dimen/width_button_effect"
+              android:src="@drawable/effect_sepia"
+              android:layout_height="@dimen/height_button_effect"
+              android:layout_marginRight="@dimen/padding_right_button_effect"
+              android:id="@+id/button_effect_sepia"/>
+
+      <ImageView
+              android:layout_width="@dimen/width_button_effect"
+              android:src="@drawable/effect_round_corner"
+              android:layout_height="@dimen/height_button_effect"
+              android:layout_marginRight="@dimen/padding_right_button_effect"
+              android:id="@+id/button_effect_round_corner"/>
+
+      <ImageView
+              android:layout_width="@dimen/width_button_effect"
+              android:src="@drawable/effect_invert"
+              android:layout_height="@dimen/height_button_effect"
+              android:layout_marginRight="@dimen/padding_right_button_effect"
+              android:id="@+id/button_effect_invert"/>
+
+      <ImageView
+              android:layout_width="@dimen/width_button_effect"
+              android:src="@drawable/effect_flea"
+              android:layout_height="@dimen/height_button_effect"
+              android:layout_marginRight="@dimen/padding_right_button_effect"
+              android:id="@+id/button_effect_flea"/>
+
+      <ImageView
+              android:layout_width="@dimen/width_button_effect"
+              android:src="@drawable/effect_engrave"
+              android:layout_height="@dimen/height_button_effect"
+              android:layout_marginRight="@dimen/padding_right_button_effect"
+              android:id="@+id/button_effect_engrave"/>
+
+      <ImageView
+              android:layout_width="@dimen/width_button_effect"
+              android:src="@drawable/effect_emboss"
+              android:layout_height="@dimen/height_button_effect"
+              android:layout_marginRight="@dimen/padding_right_button_effect"
+              android:id="@+id/button_effect_emboss"/>
+
+      <ImageView
+              android:layout_width="@dimen/width_button_effect"
+              android:src="@drawable/effect_contrast"
+              android:layout_height="@dimen/height_button_effect"
+              android:layout_marginRight="@dimen/padding_right_button_effect"
+              android:id="@+id/button_effect_contrast"/>
+
+      <ImageView
+              android:layout_width="@dimen/width_button_effect"
+              android:src="@drawable/effect_color_green"
+              android:layout_height="@dimen/height_button_effect"
+              android:layout_marginRight="@dimen/padding_right_button_effect"
+              android:id="@+id/button_effect_color_green"/>
+
+      <ImageView
+              android:layout_width="@dimen/width_button_effect"
+              android:src="@drawable/effect_brightness"
+              android:layout_height="@dimen/height_button_effect"
+              android:layout_marginRight="@dimen/padding_right_button_effect"
+              android:id="@+id/button_effect_brightness"/>
+
+      <ImageView
+              android:layout_width="@dimen/width_button_effect"
+              android:src="@drawable/effect_black"
+              android:layout_height="@dimen/height_button_effect"
+              android:layout_marginRight="@dimen/padding_right_button_effect"
+              android:id="@+id/button_effect_black"/>
+
+   </LinearLayout>
+</HorizontalScrollView>

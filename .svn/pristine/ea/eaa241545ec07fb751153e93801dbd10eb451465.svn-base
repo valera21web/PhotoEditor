@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/home_background_full">
+
+   <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="@dimen/home_top_slide_height">
+   </LinearLayout>
+   <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent">
+      <LinearLayout
+              android:layout_width="1dp"
+              android:layout_height="fill_parent"
+              android:layout_weight="1"
+              android:orientation="vertical">
+         <ImageButton
+                 android:layout_width="fill_parent"
+                 android:layout_height="1dp"
+                 android:layout_weight="1"
+                 android:id="@+id/home_button_filters"
+                 android:background="@color/home_button_filters_background"
+                 android:src="@drawable/ic_button_instagram"/>
+         <ImageButton
+                 android:layout_width="fill_parent"
+                 android:layout_height="1dp"
+                 android:layout_weight="1"
+                 android:src="@drawable/ic_button_photoeditor"
+                 android:id="@+id/home_button_instagram"
+                 android:background="@color/home_button_instagram_background"
+                 android:layout_gravity="center_horizontal"/>
+         <ImageButton
+                 android:layout_width="fill_parent"
+                 android:layout_height="1dp"
+                 android:layout_weight="1"
+                 android:id="@+id/home_button_paint"
+                 android:background="@color/home_button_paint_background"
+                 android:layout_gravity="center_horizontal"/>
+      </LinearLayout>
+      <LinearLayout
+              android:orientation="vertical"
+              android:layout_width="1dp"
+              android:layout_height="fill_parent" android:layout_weight="1">
+         <ImageButton
+                 android:layout_width="fill_parent"
+                 android:layout_height="1dp"
+                 android:layout_weight="1"
+                 android:src="@drawable/ic_button_camera"
+                 android:id="@+id/home_button_camera"
+                 android:background="@color/home_button_camera_background"
+                 />
+         <ImageButton
+                 android:layout_width="fill_parent"
+                 android:layout_height="1dp"
+                 android:layout_weight="2"
+                 android:src="@drawable/ic_button_gallery"
+                 android:id="@+id/home_button_gallery"
+                 android:background="@color/home_button_gallery_background"
+                 android:layout_gravity="center_horizontal"/>
+
+      </LinearLayout>
+   </LinearLayout>
+
+</LinearLayout>
